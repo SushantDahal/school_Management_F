@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+}
+.gradient-border {
+  border-bottom-width: 4px; /* Adjust the border width as needed */
+  border-image: linear-gradient(to left, #8989ea, #d4b4f6, #0d0aa7) 1;
+}
+.categories-card {
+  transition: background-image 0.3s ease-in-out;
+}
+
+.categories-card:hover {
+  background-image: url("../LandingPage/images/Course1.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.custom-border::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 20%;
+  border-top: 10px solid #f3a920;
+  border-left: 10px solid #f3a920;
+  border-bottom: 10px solid #f3a920;
+  box-sizing: border-box;
+}
