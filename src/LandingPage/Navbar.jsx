@@ -46,8 +46,8 @@ const Navbar = () => {
           </div>
         </div>
         <div className="lg:flex hidden">
-          <Link to="/Sush">
-            <Btn btn="LOGIN" />
+          <Link to="/login">
+            <Btn btn="Account" className="mt-4" />
           </Link>
         </div>
         <RiMenu2Line className="lg:hidden flex" size={30} onClick={HandleNav} />
@@ -88,8 +88,8 @@ const Navbar = () => {
               </button>
             </Link>
           ))}
-          <Link to="/Sush">
-            <Btn btn="LOGIN" className="mt-4" />
+          <Link to="/login">
+            <Btn btn="Account" className="mt-4" />
           </Link>
         </div>
       </div>

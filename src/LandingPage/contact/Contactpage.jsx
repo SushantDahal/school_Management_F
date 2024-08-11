@@ -1,5 +1,5 @@
 import Navbar from "../Navbar";
-import Mainpage from "../Mainpage";
+import Herosection from "../Herosection";
 import Title from "../Title";
 import Footer from "../Footer";
 import ContactCard from "./ContactCard";
@@ -34,7 +34,7 @@ const Contactpage = () => {
   return (
     <div className="w-full min-w-[350px]">
       <Navbar />
-      <Mainpage title="Contact" subtitle="contact" />
+      <Herosection title="Contact" subtitle="contact" />
       <div className="max-w-[1240px] mx-auto">
         <Title subtitle="OUR CONTACT US" maintitle="Get Our Contact Now." />
         <h2 className="max-w-[700px] mx-auto text-center px-4">

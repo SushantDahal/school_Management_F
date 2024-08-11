@@ -13,7 +13,7 @@ const Events = () => {
 "
         maintitle="Complete About Students Advance Course."
       />
-      <div className="grid md:grid-cols-3 px-4 bg-red gap-4">
+      <div className="grid md:grid-cols-3 px-4 bg-red gap-4 ">
         <EventCard
           img={Food}
           btn="Science"
@@ -36,6 +36,7 @@ const Events = () => {
           price="$50"
           bgColor="bg-[#4582ff]"
         />
+
         <EventCard
           img={Food}
           btn="Sports"
@@ -47,6 +48,7 @@ const Events = () => {
           price="$15"
           bgColor="bg-[#1ab69d]"
         />
+
         {/* <EventCard
           img={Travel}
           btn="Travel"

@@ -1,6 +1,6 @@
 import Female from "../LandingPage/images/Female.png";
 
-const Mainpage = (props) => {
+const Herosection = (props) => {
   return (
     <div className="bg-gradient-to-r from-violet-800 via-indigo-300 to-indigo-800 border-t-[1px]">
       <div className="max-w-[1240px] mx-auto grid md:grid-cols-2 gap-6 md:min-h-[400px] md:pt-20 py-6 md:mb-36 mb-4">
@@ -29,4 +29,4 @@ const Mainpage = (props) => {
     </div>
   );
 };
-export default Mainpage;
+export default Herosection;

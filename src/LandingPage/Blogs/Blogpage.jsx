@@ -1,5 +1,5 @@
 import Navbar from "../Navbar";
-import Mainpage from "../Mainpage";
+import Herosection from "../Herosection";
 import BlogCard from "../BlogCard";
 import Title from "../Title";
 import Food from "../../LandingPage/images/Food.jpg";
@@ -10,7 +10,7 @@ const Blogpage = () => {
   return (
     <div className="w-full min-w-[350px]">
       <Navbar />
-      <Mainpage title="Blog" subtitle="blog" />
+      <Herosection title="Blog" subtitle="blog" />
       <Title
         subtitle="LATEST NEWS & BLOG"
         maintitle="Our Latest Blog And News."

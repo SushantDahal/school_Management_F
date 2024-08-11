@@ -1,5 +1,5 @@
 import Navbar from "../Navbar";
-import Mainpage from "../Mainpage";
+import Herosection from "../Herosection";
 import CoursepageCard from "./CoursepageCard";
 import Title from "../Title";
 import Food from "../../LandingPage/images/Food.jpg";
@@ -11,7 +11,7 @@ const Coursepage = () => {
   return (
     <div className="w-full min-w-[350px]">
       <Navbar />
-      <Mainpage title="All Course" subtitle="All Course" />
+      <Herosection title="All Course" subtitle="All Course" />
       <Title
         subtitle="OUR POPULAR COURSES"
         maintitle="Educational For Students Popular Courses."
